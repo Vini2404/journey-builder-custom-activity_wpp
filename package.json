@@ -1,0 +1,37 @@
+{
+  "name": "jb-custom-activity",
+  "version": "1.0.0",
+  "description": "Salesforce MarketCloud Custom Activity",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lennonalvesdias/journey-builder-custom-activity"
+  },
+  "keywords": [
+    "journey",
+    "builder",
+    "salesforce marketing cloud",
+    "heroku"
+  ],
+  "author": "Devs United",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lennonalvesdias/journey-builder-custom-activity/issues"
+  },
+  "homepage": "https://github.com/lennonalvesdias/journey-builder-custom-activity#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.18.2",
+    "bower": "^1.8.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.0.1",
+    "request": "^2.81.0",
+    "require": "^2.4.20"
+  }
+}
